@@ -1,0 +1,24 @@
+Required changes for new versions
+More trivially (from sharmila.velamur email):
+1.  I had to change the filename in %%writefile to WordCount (this was
+mr_wc.py instead in the downloaded notebook) when working with MrjobWordCount.
+2.  I also had to change MRJobStep to MRStep.
+
+On windows machine
+#In Anaconda python 2.7 environment
+activate python27
+pip install mrjob
+
+On Softlayer server
+# AS ROOT USER, NOT HADOOP USER
+pip install mrjob
+# output:  Successfully built filechunkio httplib2 oauth2client uritemplate
+simplejson.  Installing collected packages: filechunkio, httplib2, pyasn1-modules,
+rsa, oauth2client, simplejson, uritemplate, google-api-python-client, mrjob
+Successfully installed filechunkio-1.6 google-api-python-client-1.5.1
+httplib2-0.9.2 mrjob-0.5.2 oauth2client-2.1.0 pyasn1-modules-0.0.8 rsa-3.4.2
+simplejson-3.8.2 uritemplate-0.6
+
+
+
+
