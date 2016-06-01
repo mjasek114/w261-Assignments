@@ -1,4 +1,4 @@
-*largestbasket	74
+*largestbasket	37
 DAI11153	8
 DAI11223	155
 DAI11238	3

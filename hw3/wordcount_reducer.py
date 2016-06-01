@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-## reducer.py
+## wordcount_reducer.py
 ## Author: Megan Jasek
-## Description: reducer code for HW3.2A, HW3.3
+## Description: reducer code for HW3.2A
 ## This function expects keys to come in sorted.  It sums the values of all keys that are the same,
 ## then it outputs each key with its total sum of all of its values.
 

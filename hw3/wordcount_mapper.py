@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-## mapper.py
+## wordcount_mapper.py
 ## Author: Megan Jasek
-## Description: mapper code for HW3.2A, HW3.3
+## Description: mapper code for HW3.2A
 
 import sys
 
