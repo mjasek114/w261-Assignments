@@ -2,8 +2,8 @@
 ## mapper.py
 ## Author: Megan Jasek
 ## Description: mapper code for HW3.4A
-## Print the count of 1 for each unique product in the input file and print the
-## largest basket size with a special marker: *largestbasket
+## Print the count of 1 for each unique product pair in each basket in the input file and print the
+## basket count with the special marker: (*basketcount,*basketcount)
 
 import sys
 
@@ -13,8 +13,8 @@ sys.stderr.write("reporter:counter:Mapper Counters,Calls,1\n")
 count_basket = 0
 
 # input comes from STDIN (standard input)
-# Break up each line by space delimiter and print each product with a count of 1.
-# Keep track of the largest basket size and print it with a special marker:  *largestbasket
+# Break up each line by space delimiter and print each product pair in each basket with a count of 1.
+# Keep track of the basket count and print it with a special marker: (*basketcount,*basketcount)
 # so that it is passed to the reducer
 for line in sys.stdin:
     products = line.split()

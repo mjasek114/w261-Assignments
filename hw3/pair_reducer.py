@@ -3,7 +3,8 @@
 ## Author: Megan Jasek
 ## Description: reducer code for HW3.4A
 ## This function expects keys to come in sorted.  It sums the values of all keys that are the same,
-## then it outputs each key with its total sum of all of its values.
+## then it outputs each key with its total sum of all of its values.  It only outputs keys with
+## values of at least 100.
 
 import sys
 

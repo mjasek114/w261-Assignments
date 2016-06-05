@@ -2,8 +2,11 @@
 ## stripes_reducer.py
 ## Author: Megan Jasek
 ## Description: reducer code for HW3.5A
-## This function expects keys to come in sorted.  It sums the values of all keys that are the same,
-## then it outputs each product pair combination with its total sum of all of its values.
+## This function expects keys to come in sorted.  It sums the values in the associated arrays
+## of all keys that are the same.  Then it outputs product pair combinations whose count is
+## greater than or equal to 100.  Ouput:  (<product1>, <product2>) \t <count>
+## NOTE:  it outputs the values in this format, so that the same Step 2 MapReduce job can
+## be used with the stripes algorithm as with the pairs algorithm.
 
 import sys
 from collections import Counter
