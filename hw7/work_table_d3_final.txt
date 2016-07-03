@@ -1,0 +1,5 @@
+A	{u'C': 5, u'B': 10}	0.0	A	V
+C	{u'B': 3, u'E': 2, u'D': 9}	5.0	AC	V
+B	{u'C': 2, u'D': 1}	8.0	ACB	V
+E	{u'A': 7, u'D': 6}	7.0	ACE	V
+D	{u'E': 4}	9.0	ACBD	V
